@@ -23,7 +23,7 @@
 }
 .parts{
     display : block ; 
-    height : 350px ;
+    height : 500px ;
 }
 .bold-text {
     display : inline-block ;
@@ -52,4 +52,50 @@
 }
 #spaceflight{
     background-image : url(suit.jpg);
+    background-size: contain;
+}
+#starlink{
+    background-image: url(starlink.jpeg);
+    background-position: top;
+    background-size: cover ;
+}
+#life-multiplanetry{
+    background-image: url(multiplanetery.jpeg);
+    background-position: top;
+    background-size: cover ;
+}
+#starship{
+    background-image: url(starship.jpg);
+    background-position: top;
+    background-size: cover ;
+}
+.spacex{
+    text-align: center ;
+    font-family: Arial ;
+    font-size : 12px ; 
+    color : white ; 
+    text-decoration : none ; 
+}
+.down{
+    display : inline-block ;
+    align-content: center;
+    align-tracks: center ;
+}
+#privacy{
+    display: inline-block ;
+    text-align: center;
+    margin-left : 400px ; 
+    font-weight: bolder;
+}
+#supliers{
+    text-align: center;
+    display: inline-block ;
+    margin-left: 50px ;
+    font-weight : bolder ; 
+}
+#privacy:active{
+    color : #807C7C ; 
+}
+#suppliers:active{
+    color : #807C7C ; 
 }
